@@ -1,0 +1,9 @@
+# Automaticly shut down the server after a given time
+# 
+# Used for server restarts
+server_core_auto_shutdown (Auto shutdown) bool true
+
+# Time between automatic shutdowns
+#
+# In seconds
+server_core_auto_shutdown_interval (Time between shutdowns, in seconds) int 43200
