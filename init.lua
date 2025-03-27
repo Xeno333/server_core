@@ -7,6 +7,8 @@ server_core = {
 }
 
 
+dofile(server_core.code_loc .. "/timed_callbacks.lua")
+
 
 if server_core.auto_restart then
     dofile(server_core.code_loc .. "/auto_restart.lua")
